@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "ctf:random_structure", 
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread", 
+        "salt": 0, 
+        "separation": 80, 
+        "spacing": 120
+    }
+}

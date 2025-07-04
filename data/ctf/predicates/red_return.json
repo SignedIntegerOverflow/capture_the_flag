@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "team": "red",
+    "location": {
+      "position": {
+        "x": {
+          "min": -820,
+          "max": -780
+        },
+        "z": {
+          "min": -20,
+          "max": 20
+        }
+      }
+    }
+  }
+}

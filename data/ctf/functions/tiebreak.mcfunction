@@ -1,0 +1,3 @@
+execute if score #blue last_captures > #red last_captures run title @a subtitle [{"text":"Red team won the game! Both teams had a total of "},{"score":{"name":"#red","objective":"Points"}},{"text":" points, but red team was able to capture their last flag earlier."}]
+execute if score #blue last_captures < #red last_captures run title @a subtitle [{"text":"Blue team won the game! Both teams had a total of "},{"score":{"name":"#blue","objective":"Points"}},{"text":" points, but blue team was able to capture their last flag earlier."}]
+execute if score #blue last_captures = #red last_captures run title @a subtitle {"text":"Both teams have tied!"}
